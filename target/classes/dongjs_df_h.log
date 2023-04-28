@@ -1,0 +1,135 @@
+db1.ewt.mdc | SUCCESS | rc=0 >>
+Filesystem      Size  Used Avail Use% Mounted on
+/dev/sda2        50G   24G   23G  51% /
+tmpfs            32G   12K   32G   1% /dev/shm
+/dev/sda1       477M   31M  422M   7% /boot
+/dev/sda7       1.3T   98G  1.1T   9% /data
+/dev/sda3        30G  2.2G   26G   8% /home
+/dev/sda6        20G   81M   19G   1% /tmp
+/dev/sdb        440G   71M  418G   1% /data1
+db2.ewt.mdc | SUCCESS | rc=0 >>
+Filesystem      Size  Used Avail Use% Mounted on
+/dev/sda2        50G   35G   13G  74% /
+tmpfs            32G   12K   32G   1% /dev/shm
+/dev/sda1       477M   31M  422M   7% /boot
+/dev/sda7       1.3T  646G  535G  55% /data
+/dev/sda3        30G  2.6G   26G   9% /home
+/dev/sda6        20G  2.0G   17G  11% /tmp
+/dev/sdb        440G   20G  398G   5% /data1
+bak1.ewt.mdc | SUCCESS | rc=0 >>
+Filesystem      Size  Used Avail Use% Mounted on
+/dev/sda2        50G   35G   12G  75% /
+tmpfs            16G  208K   16G   1% /dev/shm
+/dev/sda1       477M   31M  422M   7% /boot
+/dev/sda6       4.8T  2.9T  1.6T  65% /data
+/dev/sdb1       4.9T  3.1T  1.6T  67% /data1
+/dev/sda3        30G   15G   14G  51% /home
+/dev/sda5        20G  6.7G   12G  37% /tmp
+db4.ewt.mdc | SUCCESS | rc=0 >>
+Filesystem      Size  Used Avail Use% Mounted on
+/dev/sda2        50G   27G   21G  57% /
+tmpfs            63G   12K   63G   1% /dev/shm
+/dev/sda1       477M   31M  421M   7% /boot
+/dev/sdb1       1.4T  894G  446G  67% /data
+/dev/sda6       1.6T  113G  1.5T   8% /data1
+/dev/sda3        30G  351M   30G   2% /home
+/dev/sda5        20G  304M   20G   2% /tmp
+db3.ewt.mdc | SUCCESS | rc=0 >>
+Filesystem            Size  Used Avail Use% Mounted on
+/dev/mapper/vg0-root   50G  5.2G   42G  12% /
+tmpfs                  32G   12K   32G   1% /dev/shm
+/dev/sda1             477M   28M  425M   7% /boot
+/dev/mapper/vg0-data 1019G  151G  817G  16% /data
+/dev/mapper/vg0-tmp    30G  207M   28G   1% /tmp
+db6.ewt.mdc | SUCCESS | rc=0 >>
+Filesystem            Size  Used Avail Use% Mounted on
+/dev/mapper/vg0-root   50G  9.5G   38G  21% /
+tmpfs                  63G   12K   63G   1% /dev/shm
+/dev/sda1             477M   28M  425M   7% /boot
+/dev/mapper/vg0-data1
+                      1.6T  244G  1.2T  17% /data1
+/dev/mapper/vg0-home   20G   66M   19G   1% /home
+/dev/mapper/vg0-tmp    30G  205M   28G   1% /tmp
+/dev/mapper/vg1-data  1.3T  520G  733G  42% /data
+db5.ewt.mdc | SUCCESS | rc=0 >>
+Filesystem      Size  Used Avail Use% Mounted on
+/dev/sda2        49G  9.2G   37G  20% /
+tmpfs            63G   12K   63G   1% /dev/shm
+/dev/sda1       477M   31M  421M   7% /boot
+/dev/sdb1       1.3T  480G  773G  39% /data
+/dev/sda6       1.6T  526G  1.1T  34% /data1
+/dev/sda3        30G   55M   30G   1% /home
+/dev/sda5        20G  207M   20G   2% /tmp
+db7.ewt.mdc | SUCCESS | rc=0 >>
+Filesystem            Size  Used Avail Use% Mounted on
+/dev/mapper/vg0-root   50G   12G   35G  26% /
+tmpfs                  63G   12K   63G   1% /dev/shm
+/dev/sda1             477M   28M  425M   7% /boot
+/dev/mapper/vg0-data1
+                      1.6T  355G  1.1T  25% /data1
+/dev/mapper/vg0-home   20G  3.5G   16G  19% /home
+/dev/mapper/vg0-tmp    30G  209M   28G   1% /tmp
+/dev/mapper/vg1-data  1.3T  740G  512G  60% /data
+db8.ewt.mdc | SUCCESS | rc=0 >>
+Filesystem            Size  Used Avail Use% Mounted on
+/dev/mapper/vg0-root  871G  577G  251G  70% /
+tmpfs                  32G   12K   32G   1% /dev/shm
+/dev/sda1             477M   25M  427M   6% /boot
+db9.ewt.mdc | SUCCESS | rc=0 >>
+Filesystem            Size  Used Avail Use% Mounted on
+/dev/mapper/VolGroup-lv_root
+                      848G  325G  481G  41% /
+tmpfs                  32G   12K   32G   1% /dev/shm
+/dev/sda1             477M   25M  427M   6% /boot
+db10.ewt.mdc | SUCCESS | rc=0 >>
+Filesystem      Size  Used Avail Use% Mounted on
+/dev/sda2        50G   11G   37G  22% /
+tmpfs            63G   12K   63G   1% /dev/shm
+/dev/sda1       477M   31M  421M   7% /boot
+/dev/sda5       3.2T  1.3T  2.0T  39% /data
+/dev/sda3        30G  1.8G   29G   6% /home
+/dev/sda4        20G  284M   20G   2% /tmp
+db12.ewt.mdc | SUCCESS | rc=0 >>
+Filesystem            Size  Used Avail Use% Mounted on
+/dev/mapper/vg0-root   50G  5.5G   42G  12% /
+tmpfs                  63G  1.1M   63G   1% /dev/shm
+/dev/sdb2             477M   27M  425M   6% /boot
+/dev/sdb1             200M  276K  200M   1% /boot/efi
+/dev/mapper/vg0-data  4.8T  1.4T  3.3T  29% /data
+/dev/mapper/vg1-data1
+                      1.8T  842G  829G  51% /data1
+db13.ewt.mdc | SUCCESS | rc=0 >>
+Filesystem            Size  Used Avail Use% Mounted on
+/dev/mapper/vg0-root   50G  7.0G   40G  15% /
+tmpfs                  63G     0   63G   0% /dev/shm
+/dev/sdb2             477M   27M  425M   6% /boot
+/dev/sdb1             200M  276K  200M   1% /boot/efi
+/dev/mapper/vg0-data  4.8T  1.1T  3.6T  23% /data
+/dev/mapper/vg1-data1
+                      2.6T  1.1T  1.5T  42% /data1
+db14.ewt.mdc | SUCCESS | rc=0 >>
+Filesystem             Size  Used Avail Use% Mounted on
+devtmpfs                63G     0   63G   0% /dev
+tmpfs                   63G   12K   63G   1% /dev/shm
+tmpfs                   63G  338M   63G   1% /run
+tmpfs                   63G     0   63G   0% /sys/fs/cgroup
+/dev/mapper/vg0-root   100G  9.9G   91G  10% /
+/dev/sdb2              497M  122M  375M  25% /boot
+/dev/sdb1              200M   12M  189M   6% /boot/efi
+/dev/mapper/vg0-data1  2.4T  948G  1.5T  39% /data1
+/dev/mapper/vg0-tmp    100G   33M  100G   1% /tmp
+/dev/mapper/vg1-data   837G   35M  837G   1% /data
+tmpfs                   13G     0   13G   0% /run/user/0
+db15.ewt.mdc | SUCCESS | rc=0 >>
+Filesystem             Size  Used Avail Use% Mounted on
+devtmpfs                63G     0   63G   0% /dev
+tmpfs                   63G   12K   63G   1% /dev/shm
+tmpfs                   63G  331M   63G   1% /run
+tmpfs                   63G     0   63G   0% /sys/fs/cgroup
+/dev/mapper/vg0-root   100G  5.6G   95G   6% /
+/dev/sdb2              494M  122M  372M  25% /boot
+/dev/sdb1              200M   12M  189M   6% /boot/efi
+/dev/mapper/vg0-data1  2.4T  963G  1.5T  40% /data1
+/dev/mapper/vg0-tmp    100G   33M  100G   1% /tmp
+/dev/mapper/vg1-data   3.3T   45M  3.3T   1% /data
+tmpfs                   13G     0   13G   0% /run/user/0

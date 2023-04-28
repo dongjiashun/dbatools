@@ -1,0 +1,26 @@
+/data2/kafka_2.13-3.4.0/bin/kafka-topics.sh --bootstrap-server 172.26.1.2:9092,172.26.1.3:9092,172.26.1.4:9092 --describe --topic dongjstest
+
+Topic:career-library-collect,PartitionCount:3,ReplicationFactor:1,Configs:
+Topic:dongjstest,PartitionCount:1,ReplicationFactor:1,Configs:retention.ms=43200000
+Topic:paper-down-word,PartitionCount:3,ReplicationFactor:1,Configs:
+Topic:paper-favorite-question-add,PartitionCount:3,ReplicationFactor:1,Configs:
+Topic:paper-redis-delete,PartitionCount:3,ReplicationFactor:1,Configs:
+Topic:pre-bigdata-seriouscheck,PartitionCount:3,ReplicationFactor:1,Configs:
+Topic:pre-career-library-collect,PartitionCount:3,ReplicationFactor:1,Configs:
+Topic:pre-course-lesson,PartitionCount:3,ReplicationFactor:1,Configs:
+Topic:pre-course-package,PartitionCount:3,ReplicationFactor:1,Configs:
+Topic:pre-paper-down-word,PartitionCount:3,ReplicationFactor:1,Configs:
+Topic:pre-paper-favorite-question-add,PartitionCount:3,ReplicationFactor:1,Configs:
+Topic:pre-paper-redis-delete,PartitionCount:3,ReplicationFactor:1,Configs:
+Topic:pre-question-handle-task,PartitionCount:3,ReplicationFactor:1,Configs:
+Topic:pre-teacher-eteacherproduct-excelimport,PartitionCount:3,ReplicationFactor:1,Configs:
+Topic:pre-teacher-holiday-studynotes-superdown,PartitionCount:3,ReplicationFactor:1,Configs:
+Topic:pre-teacher-homeworkservice-homeworkpublised,PartitionCount:3,ReplicationFactor:1,Configs:
+Topic:pre-teacher-homeworkservice-homeworkrevoked,PartitionCount:3,ReplicationFactor:1,Configs:
+Topic:pre-teacher-market-updatetask,PartitionCount:3,ReplicationFactor:1,Configs:
+Topic:pre-teacher-market-usertaskstatusupdate,PartitionCount:3,ReplicationFactor:1,Configs:
+Topic:pre-volunteer_collect,PartitionCount:3,ReplicationFactor:1,Configs:
+Topic:teacher-eteacherproduct-excelimport,PartitionCount:3,ReplicationFactor:1,Configs:
+Topic:teacher-holiday-studynotes-superdown,PartitionCount:6,ReplicationFactor:1,Configs:
+Topic:test,PartitionCount:1,ReplicationFactor:1,Configs:
+Topic:volunteer_collect,PartitionCount:3,ReplicationFactor:1,Configs:

@@ -1,0 +1,1 @@
+{"partitions":[{"partition":0,"replicas":[0,1,2],"topic":"pre-teacher-market-updatetask"},{"partition":1,"replicas":[0,1,2],"topic":"pre-teacher-market-updatetask"},{"partition":2,"replicas":[0,1,2],"topic":"pre-teacher-market-updatetask"}],"version":1}

@@ -1,0 +1,1 @@
+[{"partitions":[{"partition":0,"replicas":[0,1,2],"topic":"pre-course-package"},{"partition":1,"replicas":[0,1,2],"topic":"pre-course-package"},{"partition":2,"replicas":[0,1,2],"topic":"pre-course-package"}],"version":1}]

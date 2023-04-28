@@ -1,0 +1,105 @@
+db1.ewt.mdc | FAILED | rc=1 >>
+12G	/data/mysql3303
+70G	/data/mysql3304
+514G	/data/mysql3315
+5.4G	/data/mysql3328
+4.1G	/data/mysql3334
+db2.ewt.mdc | FAILED | rc=1 >>
+72G	/data/mysql3306
+530G	/data/mysql3315
+15G	/data/mysql3323
+7.0G	/data/mysql3340
+db4.ewt.mdc | SUCCESS | rc=0 >>
+3.3G	/data/mysql3300
+94G	/data/mysql3301
+30G	/data/mysql3302
+7.3G	/data/mysql3305
+206G	/data/mysql3307
+4.8G	/data/mysql3308
+15G	/data/mysql3309
+9.0G	/data/mysql3311
+62G	/data/mysql3312
+194G	/data/mysql3314
+53G	/data/mysql3317
+83G	/data/mysql3325
+34G	/data/mysql3327
+74G	/data/mysql3337
+52G	/data/mysql3338
+7.0G	/data/mysql3340
+4.0G	/data1/mysql3331
+6.7G	/data1/mysql3335
+8.0K	/data1/mysql3346
+db3.ewt.mdc | FAILED | rc=1 >>
+351G	/data/mysql3332
+78G	/data/mysql3337
+4.3G	/data/mysql3342
+db5.ewt.mdc | SUCCESS | rc=0 >>
+27G	/data/mysql3302
+6.7G	/data/mysql3305
+206G	/data/mysql3307
+3.9G	/data/mysql3308
+15G	/data/mysql3309
+8.2G	/data/mysql3311
+58G	/data/mysql3312
+207G	/data/mysql3314
+54G	/data/mysql3317
+3.9G	/data/mysql3329
+336G	/data/mysql3332
+24G	/data/mysql3338
+7.9G	/data1/mysql3335
+3.3G	/data1/mysql3346
+157G	/data1/mysql3390
+db6.ewt.mdc | SUCCESS | rc=0 >>
+4.3G	/data/mysql3329
+332G	/data/mysql3339
+86G	/data1/mysql3343
+289G	/data1/mysql3390
+3.3G	/data1/mysql3391
+db7.ewt.mdc | SUCCESS | rc=0 >>
+139G	/data/mysql3329
+333G	/data/mysql3339
+143G	/data/mysql3878
+243G	/data1/mysql3343
+281G	/data1/mysql3390
+3.3G	/data1/mysql3391
+db8.ewt.mdc | FAILED | rc=1 >>
+94G	/data/mysql3301
+7.6G	/data/mysql3318
+5.6G	/data/mysql3320
+96G	/data/mysql3322
+7.2G	/data/mysql3324
+82G	/data/mysql3325
+74G	/data/mysql3326
+30G	/data/mysql3333
+2.9G	/data/mysql3341
+db9.ewt.mdc | FAILED | rc=1 >>
+60G	/data/mysql3312
+7.1G	/data/mysql3318
+6.0G	/data/mysql3320
+6.8G	/data/mysql3324
+75G	/data/mysql3326
+33G	/data/mysql3327
+44G	/data/mysql3330
+2.8G	/data/mysql3341
+4.2G	/data/mysql3342
+db10.ewt.mdc | FAILED | rc=1 >>
+31G	/data/mysql3333
+3.2G	/data/mysql3346
+15G	/data/mysql3872
+7.4G	/data/mysql3873
+db12.ewt.mdc | FAILED | rc=1 >>
+12G	/data/mysql3303
+72G	/data/mysql3304
+165G	/data/mysql3313
+387G	/data/mysql3321
+12G	/data/mysql3323
+4.3G	/data/mysql3328
+3.4G	/data/mysql3334
+199G	/data/mysql3345
+db13.ewt.mdc | SUCCESS | rc=0 >>
+72G	/data/mysql3306
+383G	/data/mysql3321
+166G	/data/mysql3329
+181G	/data/mysql3345
+133G	/data1/mysql3313
+440G	/data1/mysql3344

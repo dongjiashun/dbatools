@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" 
+	"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+  <mapper namespace="slowsqllepus">
+  
+  <select id="select_slowsqllepus" resultType="com.yh.spring.ssm.bean.SlowSqlLepus" parameterType="java.lang.String">
+		SELECT dbname, username, COUNT(checksum) AS typesum, SUM(ts_cnt) AS sqlsum, SUM(lock_time_sum) AS locksum
+		FROM (SELECT a.checksum AS checksum, a.fingerprint, a.sample, a.first_seen, a.last_seen
+				, b.serverid_max, b.db_max AS dbname, b.user_max AS username, b.ts_min, b.ts_max
+				, SUM(b.ts_cnt) AS ts_cnt, SUM(b.query_time_sum) / SUM(b.ts_cnt) AS query_time_avg, MAX(b.query_time_max) AS query_time_max, MIN(b.query_time_min) AS query_time_min, b.query_time_sum AS query_time_sum
+				, MAX(b.lock_time_max) AS lock_time_max, MIN(b.lock_time_min) AS lock_time_min, SUM(b.lock_time_sum) AS lock_time_sum
+			FROM mysql_slow_query_review a
+				JOIN mysql_slow_query_review_history b ON a.checksum = b.checksum
+			WHERE b.ts_min &lt; now()
+				AND b.ts_min &gt; date_sub(now(), INTERVAL 7 DAY)
+			GROUP BY a.checksum
+			ORDER BY query_time_sum DESC
+			LIMIT 100
+			) t
+		WHERE dbname IS NOT NULL
+			AND username IS NOT NULL
+		GROUP BY dbname, username
+		ORDER BY SUM(ts_cnt) DESC, SUM(lock_time_sum) DESC
+  </select>
+  </mapper>

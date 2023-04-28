@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" 
+	"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+  <mapper namespace="mysqldisk">
+  <insert id="insert_MysqlDiskInfo" parameterType="java.util.List">
+  replace INTO `mysqldisk` 
+  (
+   `hostname`, 
+   `used`, 
+   `disk_path`, 
+   `createdate`)
+   VALUES 
+   	<foreach collection="list" index="index" item="item" separator="," >
+   (
+     #{item.hostname},
+     #{item.used},
+     #{item.disk_path},
+      DATE_FORMAT(NOW(),'%Y-%m-%d')
+   )
+  </foreach>    
+  </insert>
+  <select id="select_MysqlDiskInfo" resultType="com.yh.spring.ssm.bean.serverdisk.MysqlServerDisk" parameterType="java.lang.String">
+select 
+	b.hostname,
+    b.used,
+    b.disk_path,
+    a.used-b.used as cha,
+    a.hostname,
+    a.used,
+    a.disk_path
+    
+from
+    (select 
+        *
+    from
+        mysqldisk
+    where
+        createdate = DATE_FORMAT(DATE_SUB(NOW(), INTERVAL 1 DAY), '%Y-%m-%d')) a
+        join
+    (select 
+        * from 
+        mysqldisk
+    where
+        createdate = CURDATE()) b 
+ON a.hostname = b.hostname and a.disk_path = b.disk_path
+and a.hostname="db12.ewt.mdc"
+group by b.hostname,b.used,b.disk_path
+  </select>
+  </mapper>

@@ -1,0 +1,43 @@
+db1 | SUCCESS | rc=0 >>
+Filesystem      Size  Used Avail Use% Mounted on
+/dev/sda2        50G   13G   35G  27% /
+tmpfs            32G   12K   32G   1% /dev/shm
+/dev/sda1       477M   31M  422M   7% /boot
+/dev/sda7       1.3T  576G  605G  49% /data
+/dev/sda3        30G  1.8G   27G   7% /home
+/dev/sda6        20G  105M   19G   1% /tmp
+/dev/sdb        440G   71M  418G   1% /data1
+db2 | SUCCESS | rc=0 >>
+Filesystem      Size  Used Avail Use% Mounted on
+/dev/sda2        50G   32G   15G  69% /
+tmpfs            32G   12K   32G   1% /dev/shm
+/dev/sda1       477M   31M  422M   7% /boot
+/dev/sda7       1.3T  600G  582G  51% /data
+/dev/sda3        30G  2.1G   26G   8% /home
+/dev/sda6        20G  2.9G   16G  16% /tmp
+/dev/sdb        440G   16G  402G   4% /data1
+db3 | SUCCESS | rc=0 >>
+Filesystem            Size  Used Avail Use% Mounted on
+/dev/mapper/vg0-root   50G  5.0G   42G  11% /
+tmpfs                  32G   12K   32G   1% /dev/shm
+/dev/sda1             477M   28M  425M   7% /boot
+/dev/mapper/vg0-data 1019G  490G  478G  51% /data
+/dev/mapper/vg0-tmp    30G  207M   28G   1% /tmp
+db4 | SUCCESS | rc=0 >>
+Filesystem      Size  Used Avail Use% Mounted on
+/dev/sda2        50G   19G   29G  39% /
+tmpfs            63G   12K   63G   1% /dev/shm
+/dev/sda1       477M   31M  421M   7% /boot
+/dev/sdb1       1.4T  968G  373G  73% /data
+/dev/sda6       1.6T   91G  1.5T   6% /data1
+/dev/sda3        30G  329M   30G   2% /home
+/dev/sda5        20G  219M   20G   2% /tmp
+db5 | SUCCESS | rc=0 >>
+Filesystem      Size  Used Avail Use% Mounted on
+/dev/sda2        49G  8.9G   37G  20% /
+tmpfs            63G   12K   63G   1% /dev/shm
+/dev/sda1       477M   31M  421M   7% /boot
+/dev/sdb1       1.3T  943G  310G  76% /data
+/dev/sda6       1.6T  577G 1000G  37% /data1
+/dev/sda3        30G   34M   30G   1% /home
+/dev/sda5        20G  206M   20G   2% /tmp

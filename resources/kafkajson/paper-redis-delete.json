@@ -1,0 +1,1 @@
+{"partitions":[{"partition":0,"replicas":[0,1,2],"topic":"paper-redis-delete"},{"partition":1,"replicas":[0,1,2],"topic":"paper-redis-delete"},{"partition":2,"replicas":[0,1,2],"topic":"paper-redis-delete"}],"version":1}
